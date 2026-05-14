@@ -54,22 +54,6 @@ jobs:
             .progress-bar .doing { background-color: #988BC7; }
             .progress-bar .todo { background-color: #483C67; }
 
-            /* Omni contribution calendar palette */
-            :root {
-              --color-calendar-graph-day-bg: #483C67;
-              --color-calendar-graph-day-L1-bg: #7C71A6;
-              --color-calendar-graph-day-L2-bg: #988BC7;
-              --color-calendar-graph-day-L3-bg: #78D1E1;
-              --color-calendar-graph-day-L4-bg: #67E480;
-            }
-
-            /* Force isocalendar cells to Omni colors */
-            svg [fill="#ebedf0"] { fill: #483C67 !important; }
-            svg [fill="#9be9a8"] { fill: #7C71A6 !important; }
-            svg [fill="#40c463"] { fill: #988BC7 !important; }
-            svg [fill="#30a14e"] { fill: #78D1E1 !important; }
-            svg [fill="#216e39"] { fill: #67E480 !important; }
-
           # Plugins
           plugin_calendar: yes
           plugin_calendar_limit: 1
@@ -106,3 +90,4 @@ jobs:
           plugin_notable_types: commit
           plugin_stars: yes
           plugin_stars_limit: 4
+          
